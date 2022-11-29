@@ -1,0 +1,101 @@
+.banner-img {
+    width: 100%;
+}
+
+.favorite-place__title {
+    color: #e8a762;
+    border-bottom: 4px solid #109995;
+    margin-top: 0;
+    font-size: 40px;
+}
+
+.favorite-place__item {
+    margin: 10px 0;
+    display: flex;
+}
+
+.favorite-place__list {
+    padding-left: 0;
+    list-style: none;
+}
+
+.favorite-place__img {
+    width: 80px;
+    height: 80px;
+    margin-right: 5px;
+}
+
+/* Famouse Hotels */
+.famous-hotels-title {
+    text-align: center;
+    color: #34b6b3;
+}
+
+.hotel-info {
+    position: relative;
+    margin: 0;
+}
+
+.famous-hotels-img {
+    width: 100%;
+}
+
+.hotel-name {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 10px 0;
+    width: 94%;
+}
+
+.famous-hotels-label {
+    text-align: center;
+    color: #fff;
+    text-shadow: 0 1px 0 #000;
+}
+
+/* Tour table */
+.tour-title {
+    text-align: center;
+    color: #34b6b3;
+}
+
+.tour-table-label {
+    color: rgb(0, 184, 0);
+    text-align: center;
+}
+
+.tour-table-label th {
+    text-align: center;
+}
+
+.tour-table-item td {
+    text-align: center;
+    color: #e8a762;
+    font-weight: bold;
+}
+
+/* Footer */
+.footer {
+    background-color: #0f9a93;
+    text-align: center;
+    color: #fff;
+    padding: 10px 0;
+}
+
+@media (max-width: 576px) {
+    .navbar-header {
+        height: 60px;
+    }
+    
+    .favorite-place__title {
+        font-size: 35px;
+        margin-top: 20px;
+    }
+    
+    .famous-hotels-img {
+        margin-top: 10px;
+    }
+}
